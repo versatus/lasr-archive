@@ -1,0 +1,21 @@
+[package]
+name = "lasr-archive"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.82"
+async-trait = "0.1.80"
+bson = "2.10.0"
+derive_builder = "0.20.0"
+futures = "0.3.30"
+log = "0.4.21"
+mongodb = "2.8.2"
+serde = "1.0.198"
+serde_derive = "1.0.198"
+tokio = { version = "1.37.0", features = ["full"] }
+
+[dev-dependencies]
+env_logger = "0.11.3"
